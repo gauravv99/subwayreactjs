@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins-Regular;
+	font-size: 22px;
+	line-height: 1.7;
+	color: #000000;
+	margin: 0px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  background-color: #f57c00;
+}
+
+form {
+  max-width: 1000px;
+  background-color: #ff8a65;
+  margin: 0 auto;
+  padding: 20px;
+  align-content: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0 0 20px;
+  padding: 0;
+}
+
+.polaroid img {
+  border: 10px solid orangered;
+  box-shadow: 3px 3px 3ps yellow;
+  -webkit-box-shadow: 3px 3px 3px yellow;
+}
+
+.polaroid {
+  position: relative;
+  float: left;
+  display: inline;
+  Margin: 2.5%;
+}
+
+.polaroid:hover {
+  transform: scale(1.5);
+}
+
+#pinboard a:nth-child(odd) {
+  -ms-transform: rotate(2deg);
+  -webkit-transform: rotate(20deg);
+  transform: rotate(2deg);
+}
+
+li:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+}
+
+input[type="radio"] {
+  align-self: center;
+  margin: 0 10px 0 0;
+}
+
+p {
+	font-family: Poppins-Regular;
+	font-size: 30px;
+	line-height: 1.7;
+	color: #33691e;
+	margin: 0px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.submit-button {
+  border: 0;
+  font-family: inherit;
+  font-size: inherit;
+  outline: none;
+  cursor: pointer;
+  background-color: #7E57C2;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+button {
+  font-family: Algerian;
+  font-size: 25px;
+  border: solid;
+  height: 40px;
+  width: 250px;
+	background-color: #bf360c;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #fff176;
+  height: 180px;
+  padding: 20px;
+  color: #2e7d32;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
